@@ -1,0 +1,26 @@
+<table>
+    <tr>
+        <td>Account Number</td>
+        <td><input type="text" id="account-number" onkeydown = "if (event.keyCode == 13) UserActionGetAccountDetails(this.value)"></td>
+    </tr>
+    <tr>
+        <td><p>First Name</p></td>
+        <td><p id="display_FirstName"></p></td>
+    </tr>
+    <tr>
+        <td><p>Last Name</p></td>
+        <td><p id="display_LastName"></p></td>
+    </tr>
+    <tr>
+        <td><p>Balance</p></td>
+        <td><p id="display_Balance"></p></td>
+    </tr>
+    <tr>
+        <td><p>Last Payment Date</p></td>
+        <td><p id="display_LastPaymentDate"></p></td>
+    </tr>
+    <tr>
+        <td colspan="2"><p id="display_Message" style="color:red"></p></td>
+    </tr>
+</table>
+<p style="font-weight:bold">To retrieve account information please enter the account number in the field provided and then press enter.</p>
